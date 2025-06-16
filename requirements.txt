@@ -1,0 +1,21 @@
+# Core dependencies for both weapon detection and Streamlit app
+python-dotenv==1.0.1
+numpy==1.26.4
+pandas==2.2.2
+
+# For weapon detection (YOLOv8, OpenCV, and related)
+opencv-python==4.10.0.84
+ultralytics==8.2.48
+pyyaml==6.0.1
+
+# For Streamlit app (Crime Investigation Dashboard)
+streamlit==1.36.0
+pyngrok==7.2.0
+transformers==4.41.2
+torch==2.3.1
+bitsandbytes==0.43.1
+plotly==5.22.0
+folium==0.17.0
+
+# For News API and data processing
+requests==2.32.3
